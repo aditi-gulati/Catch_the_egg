@@ -1,6 +1,4 @@
-<h1 align="center"> Catch-It </h1>
-
-## Basic Info 
+<h1 align="center"> Catch-the-Egg </h1>
 
 This is the traditional egg catching game made in Python. 
 The user can make the basket move both sides using the arrow keys to collect as many eggs as possible which is the scoring factor but, avoid minions and bombs. 
