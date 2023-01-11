@@ -701,13 +701,13 @@ def game_play():
        
         setText("Developer:", 120, (display_width / 2 - 240, display_height / 2 - 150), (0, 170, 0), None, "Forte")
         
-        setText("Aditi", 100, (display_width / 2 - 170, display_height / 2 - 20), (i, j, k), None, "Elephant")
+        setText("Aditi Gulati", 100, (display_width / 2 - 170, display_height / 2 - 20), (i, j, k), None, "Elephant")
 
         pygame.time.wait(1500)    
 
-        setText("Gulati", 100, (display_height / 2 + 90, display_height / 2 + 80), (k, j, i), None, "Elephant")
+        # setText("Gulati", 100, (display_height / 2 + 90, display_height / 2 + 80), (k, j, i), None, "Elephant")
 
-        pygame.time.wait(1500)
+        # pygame.time.wait(1500)
         
         pygame.draw.rect(credits_window, (160, 0, 0), (display_width / 2 - 230, display_height / 2 + 200, 470, 120))
 
@@ -724,9 +724,9 @@ def game_play():
         if k >=255:
             k = 64        
         
-        setText("Aditi", 100, (display_width / 2 - 170, display_height / 2 - 20), (i, j, k), None, "Elephant")    
+        setText("Aditi Gulati", 100, (display_width / 2 - 170, display_height / 2 - 20), (i, j, k), None, "Elephant")    
 
-        setText("Gulati", 100, (display_height / 2 + 90, display_height / 2 + 80), (k, j, i), None, "Elephant")
+        # setText("Gulati", 100, (display_height / 2 + 90, display_height / 2 + 80), (k, j, i), None, "Elephant")
 
         for event in pygame.event.get():
 
